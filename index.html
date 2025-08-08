@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="La Braza Restaurant App">
+  <title>La Braza</title>
+  <base href="/sistemalabraza-web/"> <!-- Cambia "labraza" por el nombre de tu repositorio -->
+  <script>
+    // Firebase configuration
+    var firebaseConfig = {
+      apiKey: 'AIzaSyBt7XDf42GVyxtzyCqwsZ0FoFDGnbwXx_Q',
+      appId: '1:669508479147:web:d9500e0d1bb83dd5a0afee',
+      messagingSenderId: '669508479147',
+      projectId: 'labraza-98906',
+      authDomain: 'labraza-98906.firebaseapp.com',
+      storageBucket: 'labraza-98906.firebasestorage.app',
+      measurementId: 'G-8WMY8WF8RM',
+    };
+  </script>
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js"></script>
+</head>
+<body>
+  <script>
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
