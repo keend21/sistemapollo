@@ -96317,7 +96317,7 @@ zF(){var s=0,r=A.G(t.H),q=1,p=[],o=this,n,m,l,k
 var $async$zF=A.C(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.J($.LR().l_(0,"assets/labraza_bw.png"),$async$zF)
+return A.J($.LR().l_(0,"assets/labraza1.png"),$async$zF)
 case 6:n=b
 o.a7(new A.asv(o,n))
 q=1
@@ -98220,7 +98220,7 @@ if(a8==null){a4=a3.h(a2,"total")
 a4=a4==null?null:J.d6(a4)
 a8=A.a5(["Efectivo",a4==null?0:a4],t.N,t.z)}f=a8
 s=6
-return A.J($.LR().l_(0,"assets/labraza_bw.png"),$async$A1)
+return A.J($.LR().l_(0,"assets/labraza1.png"),$async$A1)
 case 6:e=c1
 d=J.q4(J.aUS(e))
 c=B.jx.gBT().h7(d)
